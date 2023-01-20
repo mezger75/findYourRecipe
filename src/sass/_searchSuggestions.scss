@@ -1,0 +1,33 @@
+.search__suggestions {
+  position: absolute;
+  left: 0;
+  top: 0;
+  font-size: 1.7rem;
+  font-family: inherit;
+  background-color: #fff;
+  width: 100%;
+  border-bottom-left-radius: 5rem;
+  border-radius: 5rem;
+  margin-top: 5.3rem;
+  z-index: 99999999;
+  box-shadow: 0 0.7rem 3rem rgba($color-grey-dark-1, 0.08);
+  opacity: 1;
+  overflow: hidden;
+}
+.search__suggestions-list {
+  list-style: none;
+}
+.search__suggestions-list--item {
+  color: inherit;
+  cursor: pointer;
+  padding-left: 3rem;
+}
+
+.search__suggestions-list--item:hover {
+  background-color: $color-grey-light-1;
+}
+
+.hidden {
+  opacity: 0;
+  visibility: hidden;
+}
